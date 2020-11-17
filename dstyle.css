@@ -1,0 +1,56 @@
+ul {
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+li {
+  display: inline;
+}
+
+li {
+  float: right;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  font: Agency FB;
+  background-color: #FFFFFF;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  font: Agency FB;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #FFFFFF;
+}
+table{
+	border-collapse: collapse;
+	width:100%;
+	color: black;
+	font-size:14px;
+	text-align:left;
+}
+th{
+	background-color:#FFC08A;
+	border: 1px solid black;
+	color: black;
+}
+tr:nth-child(even){
+	background-color: #E7FF82;
+}
+tr:nth-child(odd){
+	background-color: #E7FF82;
+}

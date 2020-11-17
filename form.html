@@ -1,0 +1,180 @@
+<html>
+<head>
+
+ <title> Registraton Form </title>
+ <link rel="stylesheet" type="text/css" href="wstyle.css">
+
+ <style>
+      body {background-color: DARKSLATEBLUE;}
+</style>
+
+</head>
+
+<body>
+
+<ul>
+    <li> <a href="details.php"> House Details </a></li>
+	<li> <a href="welcome.html"> Home </a></li>
+
+</ul>
+<br>
+
+ <h1 align="center" style="color:white;"> Owner Registraton Form </h1>
+
+
+ <br>
+
+<form action="form.php" method="post">
+<table>
+
+			<tr>
+				<td>
+
+					Name :
+
+				</td>
+				<td>
+					<input type="text" placeholder= "Name" name="name" required>
+				</td>
+				</tr>
+
+				<tr>
+				<td>
+
+					Gender :
+
+				</td>
+				<td>
+					<input type="radio" name="gender" value="Male"required> Male
+					<input type="radio" name="gender"value="Female"required> Female
+				</td>
+				</tr>
+
+
+				<tr>
+				<td>
+
+					Email :
+
+				</td>
+				<td>
+					<input type="email" placeholder= "Email" name="email" required>
+				</td>
+				</tr>
+
+				<tr>
+				<td>
+
+					Phone No :
+
+				</td>
+				<td>
+					<input type="Phone"  name="phone" required>
+				</td>
+				</tr>
+
+				<td>
+
+				     Flat Details:
+
+				</td>
+				<tr>
+				<td>
+
+					Flat Serial :
+				</td>
+				<td>
+					<input type="text"  name="flatserial" required>
+				</td>
+				</tr>
+				<tr>
+					<td>
+						Flat Name :
+					</td>
+				<td>
+				<input type="text" name="flatname" required >
+
+				</td>
+				</tr>
+
+				<tr>
+					<td>
+						Flat Phone Number :
+					</td>
+				<td>
+				<input type="tel" name="flatphonenumber" required>
+
+				</td>
+				</tr>
+
+				<tr>
+					<td>
+						Gas Bill :
+					</td>
+				<td>
+				<input type="text" name="gasbill" required >
+
+				</td>
+				</tr>
+
+				<tr>
+					<td>
+						Electricity Bill :
+					</td>
+				<td>
+				<input type="text" name="electricitybill" required >
+
+				</td>
+				</tr>
+
+
+
+				<tr>
+					<td>
+					Water Bill :
+					</td>
+				<td>
+				<input type="text" name="waterbill" required >
+
+				</td>
+				</tr>
+				<tr>
+					<td>
+					Service Charge :
+					</td>
+				<td>
+				<input type="text" name="servicebill" required >
+
+				</td>
+				</tr>
+				<tr>
+					<td>
+						House Bill :
+					</td>
+				<td>
+				<input type="text" name="housebill" required >
+
+				</td>
+				</tr>
+
+				<tr>
+					<td>
+						Total :
+					</td>
+				<td>
+				<input type="text" name="total" required >
+
+				</td>
+				</tr>
+
+				<tr>
+    <td>
+		<br><input type="submit" value="Submit"> <button type="reset" > Clear </button>
+	</td>
+   </tr>
+
+     </table>
+
+</form>
+</body>
+</html>

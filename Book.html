@@ -1,0 +1,85 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+		<title>Booking Form</title>
+		<link rel="stylesheet" type="text/css" href="wstyle.css">
+
+</head>
+
+<body>
+<ul>
+    <li> <a href="welcome.html">  logout </a></li>
+    <li> <a href="details.php"> House Details </a></li>
+	<li> <a href="welcome.html"> Home </a></li>
+
+</ul>
+
+<div id="Login">
+ <font size="70"> <h1 align="center" style="color:black" class="blink"> BOOK NOW </h1> <br> </font> </blank>
+ <form action="Book.php" method="POST">
+  <table>
+
+   <tr>
+    <td>Name :</td>
+    <td><input type="text" name="username" required></td>
+   </tr>
+   <tr>
+    <td>Gender :</td>
+    <td>
+     <input type="radio" name="gender" value="Male" required>Male
+     <input type="radio" name="gender" value="Female" required>Female
+    </td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="email" name="email" required></td>
+   </tr>
+   <tr>
+    <td>Phone no :</td>
+    <td>
+     <input type="phone" name="phone" required>
+    </td>
+   </tr>
+    <tr>
+    <td>Family Members :</td>
+   </tr>
+   <tr>
+   <td> Adult </td>
+   <td>
+
+   <input type="text" name="adult" required> </td>
+
+      <td> Childern </td>
+   <td>
+
+   <input type="text" name="children" required> </td>
+   </tr>
+   <tr>
+	<td> NID Number </td>
+	<td> <input type="text" name="nidnumber" required> </td>
+  </tr>
+  <tr>
+
+	<td> Flat Name </td>
+	<td><input type="text" name="flatname" placeholder="Flat Name" required></td>
+  </tr>
+  <tr>
+	<td> Booking Date </td>
+	<td> <input type="text" name="bookingdate" placeholder="mm/dd/yy" required> </td>
+   </tr>
+
+
+   <tr>
+    <td>
+		<br><input type="submit" value="Book">
+	</td>
+   </tr>
+
+
+  </table>
+ </form>
+ </div>
+</body>
+</html>

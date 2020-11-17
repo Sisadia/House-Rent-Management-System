@@ -1,0 +1,178 @@
+<?php
+$dbServername = "localhost";
+$dbUsername = "root";
+$dbPassword = "";
+$dbName="shoron";
+
+$conn = mysqli_connect($dbServername,$dbUsername,$dbPassword,$dbName);
+?>
+<html>
+<head>
+
+ <title> Registraton Form </title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+<br>
+
+ <h1 align="center"> Owner Registraton Form </h1>
+ 
+ 
+ <br>
+ 
+<form method="post" action="form.php">
+<table>
+			
+			<tr>
+				<td> 
+				
+					NAME :
+
+				</td>
+				<td> 
+					<input type="text" placeholder= "NAME" name="name" > 
+				</td>
+				</tr> 
+				
+				<tr>
+				<td> 
+				
+					Gender :
+
+				</td>
+				<td> 
+					<input type="radio" name="gender" value="Male"> Male
+					<input type="radio" name="gender"value="Female"> Female
+				</td>
+				</tr> 
+				
+				
+				<tr>
+				<td> 
+				
+					Email :
+
+				</td>
+				<td> 
+					<input type="mail" placeholder= "Email" name="email" > 
+				</td>
+				</tr> 
+				
+				<tr>
+				<td> 
+				
+					Phone No :
+
+				</td>
+				<td> 
+					<input type="Phone" placeholder= 12345 name="phone" > 
+				</td>
+				</tr> 
+				
+				<td>
+				
+				     Flat Details:
+					 
+				</td>
+				<tr>
+				<td> 
+				
+					Flat Serial :
+				</td>
+				<td> 
+					<input type="text"  name="flatserial" > 
+				</td>
+				</tr> 
+				<tr>
+					<td>
+						Flat Name :
+					</td>
+				<td>
+				<input type="text" name="flatname" >
+				
+				</td>
+				</tr>
+				
+				<tr>
+					<td>
+						Flat Phone Number :
+					</td>
+				<td>
+				<input type="tel" name="flatphonenumber" >
+				
+				</td>
+				</tr>
+				
+				<tr>
+					<td>
+						Gas Bill :
+					</td>
+				<td>
+				<input type="text" name="gasbill" >
+				
+				</td>
+				</tr>
+				
+				<tr>
+					<td>
+						Electricity Bill :
+					</td>
+				<td>
+				<input type="text" name="electricitybill" >
+				
+				</td>
+				</tr>
+				
+				
+				
+				<tr>
+					<td>
+					Water Bill :
+					</td>
+				<td>
+				<input type="text" name="waterbill" >
+				
+				</td>
+				</tr>
+				<tr>
+					<td>
+					Service Charge :
+					</td>
+				<td>
+				<input type="text" name="servicebill" >
+				
+				</td>
+				</tr>
+				<tr>
+					<td>
+						House Bill :
+					</td>
+				<td>
+				<input type="text" name="housebill" >
+				
+				</td>
+				</tr>
+				
+				<tr>
+					<td>
+						Total :
+					</td>
+				<td>
+				<input type="text" name="total" >
+				
+				</td>
+				</tr>
+				
+				<tr>
+    <td> 
+		<br><input type="submit" value="Book">
+	</td>
+   </tr>			
+			
+     </table>
+	 <button type="reset" > Clear </button>
+</form>
+</body>
+</html>

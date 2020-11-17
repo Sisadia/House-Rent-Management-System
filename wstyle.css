@@ -1,0 +1,70 @@
+ul {
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li {
+  display: inline;
+}
+
+li {
+  float: right;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  font: Agency FB;
+  background-color: #000000;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  font: Agency FB;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #000000;
+}
+
+p{
+	font-size: 40;
+}
+
+marquee{
+	font-size: 30;
+}
+.blink {
+    -webkit-animation: blink 1s step-end infinite;
+            animation: blink 1s step-end infinite;
+                color: #744DA9;
+}
+@-webkit-keyframes blink { 50% { visibility: hidden; }}
+        @keyframes blink { 50% { visibility: hidden; }}}
+
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+content{
+  font-size: 10px;
+  font-style: italic;
+}
+marquee{
+  background-color: white;
+  color: black;
+}
+
+p{
+  font-size: 20px;
+}
